@@ -5,48 +5,56 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TA Sdt Av — Cours d'Électricité | Armée Suisse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
-
-:root {
-–red: #C8102E;
-–red-dark: #9e0d24;
-–red-light: #f5e6e9;
-–white: #FFFFFF;
-–off-white: #F7F6F2;
-–cream: #EDE9E0;
-–gray-light: #E5E3DC;
-–gray: #9B9890;
-–gray-dark: #5A5750;
-–black: #1A1915;
-–accent: #E8A020;
-–accent-light: #FDF4E3;
-–green: #1F6B3A;
-–green-light: #E5F0EA;
-–blue: #1A4A8A;
-–blue-light: #E6EDF8;
-–mono: ‘IBM Plex Mono’, monospace;
-–sans: ‘IBM Plex Sans’, sans-serif;
-}
+  :root {
+    --red: #C8102E;
+    --red-dark: #9e0d24;
+    --red-light: #f5e6e9;
+    --white: #FFFFFF;
+    --off-white: #F7F6F2;
+    --cream: #EDE9E0;
+    --gray-light: #E5E3DC;
+    --gray: #9B9890;
+    --gray-dark: #5A5750;
+    --black: #1A1915;
+    --accent: #E8A020;
+    --accent-light: #FDF4E3;
+    --green: #1F6B3A;
+    --green-light: #E5F0EA;
+    --blue: #1A4A8A;
+    --blue-light: #E6EDF8;
+    --mono: 'IBM Plex Mono', 'Courier New', 'Menlo', 'Monaco', monospace;
+    --sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
 
 - { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { background-color: #F7F6F2; }
 
 body {
 font-family: var(–sans);
 background: var(–off-white);
 color: var(–black);
 line-height: 1.6;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 /* HEADER */
 .header {
-background: var(–black);
-color: var(–white);
+background: #1A1915;
+background-color: #1A1915;
+color: #FFFFFF;
 padding: 0;
 position: sticky;
 top: 0;
 z-index: 100;
-border-bottom: 3px solid var(–red);
+border-bottom: 3px solid #C8102E;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
 }
 .header-inner {
 display: flex;
